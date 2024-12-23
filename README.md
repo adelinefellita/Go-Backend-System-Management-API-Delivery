@@ -38,17 +38,20 @@ The full API documentation is available on [Postman Documentation](https://docum
    cd Go-Backend-System-Management-API-Delivery
 
 2. Install dependencies:
-   `go mod tidy
+   ```bash
+   go mod tidy
 
-3. Set up environment variables in .env file:
-   ```MONGO_URI=mongodb://localhost:27017
+4. Set up environment variables in .env file:
+   ```bash
+   MONGO_URI=mongodb://localhost:27017
     DATABASE_NAME = admin
     JWT_SECRET = your_jwt_secret_key
 
-4. Run the application:
-   `go run main.go
+5. Run the application:
+   ```bash
+   go run main.go
 
-5. Access the API at http://localhost:8080
+6. Access the API at http://localhost:8080
 
 ## API Endpoints
 
